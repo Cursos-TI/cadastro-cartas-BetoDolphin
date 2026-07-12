@@ -22,12 +22,10 @@ int main() {
 
     printf("Digite o PIB da cidade: ");
     scanf("%f", &pib);
-
+  // Área para exibição dos dados da cidade
     printf("Nome: %s\n", nome);
     printf("População: %d\n", populacao);
     printf("Área: %f\n", area);
     printf("PIB: %f\n", pib);
-  // Área para exibição dos dados da cidade
-
 return 0;
 } 
